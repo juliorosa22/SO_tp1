@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/home/julio/tp1_so/src/main/scala/Process.scala:1:7: class Process needs to be abstract, since variable description is not defined[0m
+[0m[[0m[31merror[0m] [0m[0m(Note that variables need to be initialized to be defined)[0m
+[0m[[0m[31merror[0m] [0m[0mclass Process(private var _ID: Int, private var _state:Int){[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
