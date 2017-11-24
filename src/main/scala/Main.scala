@@ -1,13 +1,16 @@
-object Main extends App {
+object Main{
 
   def main(args :Array[String]){
-      println("Executando a main")
+      println("Executando a main");
+  val r = scala.util.Random;
+  var a=0;
+    for( a <- 1 to 10){
+      println(r.nextInt(100));
 
-      var process = new Process(10,1)
-      var printer = new Printer("Printer Generic usb");
-      process.showProcess
-      printer.showPrinter
-      
+    }
+
+
+
 
   }
 
